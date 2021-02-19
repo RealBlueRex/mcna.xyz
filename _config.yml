@@ -48,7 +48,7 @@ skills_title: Skills
 # show_timeline_card:
 # > setting this to true, will display the Timeline section
 # > setting this to false, will omit the Timeline section
-show_timeline_card: true
+show_timeline_card: false
 # timeline_title: The will be displayed as the title in the Timeline section
 timeline_title: Timeline!
 # cv_download_link: The link where you host your cv.
@@ -102,7 +102,7 @@ projects:
     # > setting this to false, will also display forked repositories
     forks: true
     # projects: A list of the repository names you want to exclude from the listing.
-    projects:
+    projects: false
     # - repo1-to-be-excluded
     # - repo2-to-be-excluded
 
